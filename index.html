@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div class="input-wrapper">
+            <input id="input-box" type="text" placeholder="0">
+        </div>
+        <div id="all_butn">
+            <div>
+                <button id="butn_wrapper" class="oprator-butn" onclick="getClear()">AC</button>
+                <button id="butn_wrapper" class="oprator-butn" onclick="oneByOneDel()">X</button>
+                <button id="butn_wrapper" class="oprator-butn" onclick="getNumber('%')">%</button>
+                <button id="butn_wrapper" class="oprator-butn" onclick="getNumber('/')">/</button>
+            </div>
+
+            <div>
+                <button id="butn_wrapper" class="number-butn" onclick="getNumber('7')">7</button>
+                <button id="butn_wrapper" class="number-butn" onclick="getNumber('8')">8</button>
+                <button id="butn_wrapper" class="number-butn" onclick="getNumber('9')">9</button>
+                <button id="butn_wrapper" class="oprator-butn" onclick="getNumber('*')">*</button>
+            </div>
+
+            <div>
+                <button id="butn_wrapper" class="number-butn" onclick="getNumber('4')">4</button>
+                <button id="butn_wrapper" class="number-butn" onclick="getNumber('5')">5</button>
+                <button id="butn_wrapper" class="number-butn" onclick="getNumber('6')">6</button>
+                <button id="butn_wrapper" class="oprator-butn" onclick="getNumber('-')">-</button>
+            </div>
+
+            <div>
+                <button id="butn_wrapper" class="number-butn" onclick="getNumber('1')">1</button>
+                <button id="butn_wrapper" class="number-butn" onclick="getNumber('2')">2</button>
+                <button id="butn_wrapper" class="number-butn" onclick="getNumber('3')">3</button>
+                <button id="butn_wrapper" class="oprator-butn" onclick="getNumber('+')">+</button>
+            </div>
+
+            <div>
+                <button id="butn_wrapper" class="number-butn" onclick="getNumber('00')">00</button>
+                <button id="butn_wrapper" class="number-butn" onclick="getNumber('0')">0</button>
+                <button id="butn_wrapper" class="number-butn" onclick="getNumber('.')">.</button>
+                <button id="butn_wrapper" class="oprator-butn" onclick="getResult()">=</button>
+            </div>
+
+        </div>
+        <script src="app.js"></script>
+</body>
+
+</html>

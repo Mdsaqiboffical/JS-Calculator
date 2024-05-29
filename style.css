@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    background-color: hsl(208, 21%, 15%);
+}
+
+#container {
+    height: 420px;
+    width: 320px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #232D36;
+}
+
+#input-box {
+    width: 260px;
+    padding: 0.85rem;
+    padding-right: 1rem;
+    margin: .7rem .2rem;
+    font-size: 1.5rem;
+    border: none;
+    text-align: right;
+    background-color: hsl(208, 21%, 20%);
+    color: white;
+    border-radius: 3rem;
+}
+
+#butn_wrapper {
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    font-size: 1.5rem;
+    padding: 1rem;
+    height: 60px;
+    margin: .2rem;
+    width: 60px;
+    border-radius: 50%;
+}
+
+
+.oprator-butn {
+    background-color: #FF9500;
+    color: white;
+}
+
+.number-butn {
+    background-color: #505050;
+    color: white;
+}
